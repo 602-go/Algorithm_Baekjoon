@@ -1,0 +1,5 @@
+m = []
+for i in range(10):
+    n = int(input())
+    m.append(n%42)
+print(len(set(m)))
